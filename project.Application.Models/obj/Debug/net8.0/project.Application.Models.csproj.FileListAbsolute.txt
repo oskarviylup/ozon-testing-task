@@ -1,0 +1,12 @@
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/bin/Debug/net8.0/project.Application.Models.deps.json
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/bin/Debug/net8.0/project.Application.Models.dll
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/bin/Debug/net8.0/project.Application.Models.pdb
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/obj/Debug/net8.0/project.Application.Models.csproj.AssemblyReference.cache
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/obj/Debug/net8.0/project.Application.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/obj/Debug/net8.0/project.Application.Models.AssemblyInfoInputs.cache
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/obj/Debug/net8.0/project.Application.Models.AssemblyInfo.cs
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/obj/Debug/net8.0/project.Application.Models.csproj.CoreCompileInputs.cache
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/obj/Debug/net8.0/project.Application.Models.dll
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/obj/Debug/net8.0/refint/project.Application.Models.dll
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/obj/Debug/net8.0/project.Application.Models.pdb
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/obj/Debug/net8.0/ref/project.Application.Models.dll

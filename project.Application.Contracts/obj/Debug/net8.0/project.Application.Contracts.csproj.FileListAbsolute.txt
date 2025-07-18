@@ -1,0 +1,15 @@
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/bin/Debug/net8.0/project.Application.Contracts.deps.json
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/bin/Debug/net8.0/project.Application.Contracts.dll
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/bin/Debug/net8.0/project.Application.Contracts.pdb
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/bin/Debug/net8.0/project.Application.Models.dll
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/bin/Debug/net8.0/project.Application.Models.pdb
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/obj/Debug/net8.0/project.Application.Contracts.csproj.AssemblyReference.cache
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/obj/Debug/net8.0/project.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/obj/Debug/net8.0/project.Application.Contracts.AssemblyInfoInputs.cache
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/obj/Debug/net8.0/project.Application.Contracts.AssemblyInfo.cs
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/obj/Debug/net8.0/project.Application.Contracts.csproj.CoreCompileInputs.cache
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/obj/Debug/net8.0/project..C60A43A7.Up2Date
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/obj/Debug/net8.0/project.Application.Contracts.dll
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/obj/Debug/net8.0/refint/project.Application.Contracts.dll
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/obj/Debug/net8.0/project.Application.Contracts.pdb
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/obj/Debug/net8.0/ref/project.Application.Contracts.dll

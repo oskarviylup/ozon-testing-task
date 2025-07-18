@@ -1,0 +1,17 @@
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Endpoints/bin/Debug/net8.0/project.Endpoints.deps.json
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Endpoints/bin/Debug/net8.0/project.Endpoints.dll
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Endpoints/bin/Debug/net8.0/project.Endpoints.pdb
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Endpoints/bin/Debug/net8.0/project.Application.Contracts.dll
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Endpoints/bin/Debug/net8.0/project.Application.Models.dll
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Endpoints/bin/Debug/net8.0/project.Application.Contracts.pdb
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Endpoints/bin/Debug/net8.0/project.Application.Models.pdb
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Endpoints/obj/Debug/net8.0/project.Endpoints.csproj.AssemblyReference.cache
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Endpoints/obj/Debug/net8.0/project.Endpoints.GeneratedMSBuildEditorConfig.editorconfig
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Endpoints/obj/Debug/net8.0/project.Endpoints.AssemblyInfoInputs.cache
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Endpoints/obj/Debug/net8.0/project.Endpoints.AssemblyInfo.cs
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Endpoints/obj/Debug/net8.0/project.Endpoints.csproj.CoreCompileInputs.cache
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Endpoints/obj/Debug/net8.0/project..909134D6.Up2Date
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Endpoints/obj/Debug/net8.0/project.Endpoints.dll
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Endpoints/obj/Debug/net8.0/refint/project.Endpoints.dll
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Endpoints/obj/Debug/net8.0/project.Endpoints.pdb
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Endpoints/obj/Debug/net8.0/ref/project.Endpoints.dll

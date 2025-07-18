@@ -1,0 +1,15 @@
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/bin/Debug/net8.0/project.Application.Abstractions.deps.json
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/bin/Debug/net8.0/project.Application.Abstractions.dll
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/bin/Debug/net8.0/project.Application.Abstractions.pdb
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/bin/Debug/net8.0/project.Application.Models.dll
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/bin/Debug/net8.0/project.Application.Models.pdb
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/obj/Debug/net8.0/project.Application.Abstractions.csproj.AssemblyReference.cache
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/obj/Debug/net8.0/project.Application.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/obj/Debug/net8.0/project.Application.Abstractions.AssemblyInfoInputs.cache
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/obj/Debug/net8.0/project.Application.Abstractions.AssemblyInfo.cs
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/obj/Debug/net8.0/project.Application.Abstractions.csproj.CoreCompileInputs.cache
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/obj/Debug/net8.0/project..508B8040.Up2Date
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/obj/Debug/net8.0/project.Application.Abstractions.dll
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/obj/Debug/net8.0/refint/project.Application.Abstractions.dll
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/obj/Debug/net8.0/project.Application.Abstractions.pdb
+/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/obj/Debug/net8.0/ref/project.Application.Abstractions.dll

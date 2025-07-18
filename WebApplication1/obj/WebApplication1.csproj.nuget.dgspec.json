@@ -1,0 +1,719 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/oskarviylyp/RiderProjects/ozon-tt/WebApplication1/WebApplication1.csproj": {}
+  },
+  "projects": {
+    "/Users/oskarviylyp/RiderProjects/ozon-tt/Presentation.Kafka/Presentation.Kafka.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/oskarviylyp/RiderProjects/ozon-tt/Presentation.Kafka/Presentation.Kafka.csproj",
+        "projectName": "Presentation.Kafka",
+        "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/Presentation.Kafka/Presentation.Kafka.csproj",
+        "packagesPath": "/Users/oskarviylyp/.nuget/packages/",
+        "outputPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/Presentation.Kafka/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/oskarviylyp/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/project.Application.Abstractions.csproj": {
+                "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/project.Application.Abstractions.csproj"
+              },
+              "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/project.Application.Contracts.csproj": {
+                "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/project.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/project.Application.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/project.Application.Abstractions.csproj",
+        "projectName": "project.Application.Abstractions",
+        "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/project.Application.Abstractions.csproj",
+        "packagesPath": "/Users/oskarviylyp/.nuget/packages/",
+        "outputPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/oskarviylyp/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/project.Application.Models.csproj": {
+                "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/project.Application.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/project.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/project.Application.Contracts.csproj",
+        "projectName": "project.Application.Contracts",
+        "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/project.Application.Contracts.csproj",
+        "packagesPath": "/Users/oskarviylyp/.nuget/packages/",
+        "outputPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/oskarviylyp/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/project.Application.Models.csproj": {
+                "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/project.Application.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/project.Application.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/project.Application.Models.csproj",
+        "projectName": "project.Application.Models",
+        "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/project.Application.Models.csproj",
+        "packagesPath": "/Users/oskarviylyp/.nuget/packages/",
+        "outputPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/oskarviylyp/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application/project.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application/project.Application.csproj",
+        "projectName": "project.Application",
+        "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application/project.Application.csproj",
+        "packagesPath": "/Users/oskarviylyp/.nuget/packages/",
+        "outputPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/oskarviylyp/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/oskarviylyp/RiderProjects/ozon-tt/Presentation.Kafka/Presentation.Kafka.csproj": {
+                "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/Presentation.Kafka/Presentation.Kafka.csproj"
+              },
+              "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/project.Application.Abstractions.csproj": {
+                "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/project.Application.Abstractions.csproj"
+              },
+              "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/project.Application.Contracts.csproj": {
+                "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/project.Application.Contracts.csproj"
+              },
+              "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/project.Application.Models.csproj": {
+                "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/project.Application.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Endpoints/project.Endpoints.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Endpoints/project.Endpoints.csproj",
+        "projectName": "project.Endpoints",
+        "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Endpoints/project.Endpoints.csproj",
+        "packagesPath": "/Users/oskarviylyp/.nuget/packages/",
+        "outputPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Endpoints/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/oskarviylyp/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/project.Application.Contracts.csproj": {
+                "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/project.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Infrastructure.Persistence/project.Infrastructure.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Infrastructure.Persistence/project.Infrastructure.Persistence.csproj",
+        "projectName": "project.Infrastructure.Persistence",
+        "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Infrastructure.Persistence/project.Infrastructure.Persistence.csproj",
+        "packagesPath": "/Users/oskarviylyp/.nuget/packages/",
+        "outputPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Infrastructure.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/oskarviylyp/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/project.Application.Abstractions.csproj": {
+                "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/project.Application.Abstractions.csproj"
+              },
+              "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application/project.Application.csproj": {
+                "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application/project.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/oskarviylyp/RiderProjects/ozon-tt/WebApplication1/WebApplication1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/oskarviylyp/RiderProjects/ozon-tt/WebApplication1/WebApplication1.csproj",
+        "projectName": "WebApplication1",
+        "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/WebApplication1/WebApplication1.csproj",
+        "packagesPath": "/Users/oskarviylyp/.nuget/packages/",
+        "outputPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/WebApplication1/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/oskarviylyp/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/project.Application.Abstractions.csproj": {
+                "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Abstractions/project.Application.Abstractions.csproj"
+              },
+              "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/project.Application.Contracts.csproj": {
+                "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Contracts/project.Application.Contracts.csproj"
+              },
+              "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/project.Application.Models.csproj": {
+                "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application.Models/project.Application.Models.csproj"
+              },
+              "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application/project.Application.csproj": {
+                "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Application/project.Application.csproj"
+              },
+              "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Endpoints/project.Endpoints.csproj": {
+                "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Endpoints/project.Endpoints.csproj"
+              },
+              "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Infrastructure.Persistence/project.Infrastructure.Persistence.csproj": {
+                "projectPath": "/Users/oskarviylyp/RiderProjects/ozon-tt/project.Infrastructure.Persistence/project.Infrastructure.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

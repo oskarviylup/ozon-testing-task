@@ -1,0 +1,19 @@
+syntax = "proto3";
+package Presentation.Grpc;
+
+option csharp_namespace = "Presentation.Grpc";
+
+
+message GetReportRequest {
+    string request_id = 1;
+}
+
+message ReportResponse {
+    string status = 1;
+    double conversion = 2;
+    int32 item_payments_amount = 3;
+}
+
+service ReportGrpcService {
+    rpc GetReport(GetReportRequest) returns (ReportResponse);
+}
